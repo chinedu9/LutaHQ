@@ -1,0 +1,218 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+
+/* nav start */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav a{
+  padding-right: 30px;
+  color: white;
+}
+.nav-info{
+  display: flex;
+  padding-top: 8px;
+  padding-right: 10%;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.header{
+  background-color:  #1F2937;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.logo img{
+  width: 14%;
+  padding-left: 17%;
+}
+
+/* nav ends */
+
+
+
+/* hero page start here */
+.hero-page{
+  display: flex;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: #1F2937;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.hero-left{
+  padding: 20px;
+}
+
+
+.p1{
+  font-size: 48px;
+  color: #F9FAF8;   
+  margin: 0px;
+}
+
+.p2{
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 12px;
+}
+
+.hero-bt{
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.hero-box img{
+  width: 150px;
+  height: 300px;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 8px;
+}
+
+.hero-box{
+  padding: 20px;
+}
+/* hero page ends here */
+
+
+
+/* team page start here */
+
+.team-page h1{
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,  'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+
+}
+
+.team-profile-cover{
+  width: 250px;
+  border-color: #3882F6;
+  display: flex;
+  gap: 25px;
+  margin-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.team-profile-cover-img img{
+  width: 150px;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.team-profile-cover-img p{
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* team page ends here */
+
+
+
+/* titmony page starts here */
+
+.titmony-page p{
+  text-align:left;
+  font-size: 36px;
+  font-family: 'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.titmony-page{
+ 
+  background-color: #E5E7EB;
+  color: rgb(92, 90, 90);
+  margin-top: 30px;
+}
+.titmony-page-info .t2{
+  font-size: 20px;
+  padding-left: 90%;
+  font-weight:bolder;
+  color: black;
+}
+
+.titmony-page-info{
+  width: 50%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+  
+}
+
+/* titmony page ends here */
+
+
+/* Call to action page start here */
+
+.action-cover{
+  background-color: #3882F6;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: 'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+}
+.action-info{
+  padding: 20px;
+  width: 500px;
+ 
+  color: #F9FAF8;
+}
+.action-bold{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.action-bt{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  border-radius: 8px;
+  font-size: 18px;
+  border-color: #F9FAF8;
+  border-style: solid;
+  cursor: pointer;
+}
+
+/* ends here */
+
+.footer-cover{
+  background-color: #1F2937;
+  text-align: center;
+  font-family: 'Roboto, Oxygen, Ubuntu, Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #F9FAF8;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
